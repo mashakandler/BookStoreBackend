@@ -1,0 +1,25 @@
+{
+  "name": "bookstorebackend",
+  "version": "1.0.0",
+  "description": "The BookStore backend node server that listens to work-queue on Rabbit MQ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mashakandler/BookStoreBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mashakandler/BookStoreBackend/issues"
+  },
+  "homepage": "https://github.com/mashakandler/BookStoreBackend#readme",
+  "dependencies": {
+    "jackrabbit": "^4.3.0",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.5",
+    "validator": "^10.4.0"
+  }
+}
